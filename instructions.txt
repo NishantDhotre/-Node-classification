@@ -1,0 +1,42 @@
+|	Name: Nishant Naresh Dhotre	        |
+|	    Roll No: 23CS60R48		        |
+'---------------------------------------'
+
+
+
+instructions to run LR.py
+
+1. **Install Dependencies**:
+   - Ensure Python 3 and `pip` are installed.
+   - Install required libraries: `pip install networkx gensim numpy scikit-learn`.
+
+2. **Prepare Dataset**:
+   - Place `cora_train.cites`, `cora_test.cites`, and `cora.content` in a `../dataset/` directory relative to the script.
+
+3. **Save the Script**:
+   - Save the provided code in a file named `graph_classification.py`.
+
+4. **Run the Script**:
+   - Open a terminal, navigate to the script's directory.
+   - Execute: `python LR.py`.
+
+This process will generate node embeddings, train a logistic regression model, and output evaluation metrics.
+
+
+instructions to run GCN.py
+1. **Install Dependencies**: 
+   - Make sure Python and `pip` are installed.
+   - Install required libraries: `pip install networkx torch torch-geometric gensim scikit-learn`.
+
+2. **Prepare Your Dataset**:
+   - Ensure `cora_train.cites`, `cora_test.cites`, and `cora.content` are located in a directory named `dataset` one level up from your script's location.
+
+3. **Save the Script**:
+   - Copy the provided code into a file named `graph_model.py`.
+
+4. **Run the Script**:
+   - Open a terminal or command prompt.
+   - Navigate to the directory containing `graph_model.py`.
+   - Execute the script: `python graph_model.py`.
+
+The script trains a GCN model on the training graph, evaluates it on the test graph, and saves the evaluation metrics to `gcn_metrics.txt`.
